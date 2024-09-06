@@ -1,0 +1,97 @@
+body {  
+
+    font: 12px "Luciida Grande", "Lucida Sans unicode", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 99%;
+    height: 720px;
+    background-image: url('/img/background.png');
+    border-radius: 100px;
+    margin: 10px auto;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo img{
+    width: 45px;
+    height: 45px;
+}
+
+nav {
+    width: 75%;
+    height: 100%;
+}
+
+nav ul {
+    width: 50%;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.subtitulo {
+    height: 300px;
+    color: #2A66AB;
+    font-size: 28px;
+    margin-top: 130px;
+}
+
+.subtitulo p {
+    font-size: 20px;
+    color: #3086EB;
+}
+
+
+.subtitulo h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.icon {
+    width: 50%;
+}
+
+.icon img{
+    height: 30px;
+    width: 30px;
+}
+
+.icon p {
+    height: 30px;
+    border: 2px solid red;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.icon p a{
+    color: black;
+}
+
+
+.btn {
+    border-radius: 100px;
+}
+
+.btn button{
+    color: #007bff;
+}
+
+
+.rounded-custom {
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+}
+
+.rounded-custom:hover {
+    background-color: aqua;
+}
+
+
+.img-fluid {
+    border: 2px solid red;
+}
