@@ -7,11 +7,13 @@ body {
 
 .container-fluid {
     width: 99%;
-    height: 720px;
-    background-image: url('/img/background.png');
+    height: 7000px;
+    background-image: url('/img/background2.png');
+    background-repeat: repeat-x;
     border-radius: 100px;
     margin: 10px auto;
 }
+
 
 .logo {
     width: 30%;
@@ -33,20 +35,24 @@ nav ul {
     border-radius: 100px;
 }
 
-.subtitulo {
+.home {
+    width: 100%;
+}
+
+.subtitle {
     height: 300px;
     color: #2A66AB;
     font-size: 28px;
     margin-top: 130px;
 }
 
-.subtitulo p {
+.subtitle p {
     font-size: 20px;
     color: #3086EB;
 }
 
 
-.subtitulo h2{
+.subtitle h2{
     font-size: 42px;
     font-weight: bold;
 }
@@ -95,3 +101,186 @@ nav ul {
 .img-fluid {
     border: 2px solid red;
 }
+
+.espaco{
+    height: 200px;
+}
+
+#benefits-section{
+    height: 1000px;
+    border: 2px solid greenyellow;
+}
+
+
+#row-benefits-section{
+    height: 500px;
+    margin-top: 100px;
+    border: 2px solid rgb(164, 54, 80);
+}
+
+#aspas {
+    height: 70px;
+    float: left;
+}
+
+.check-col{
+    height: 300px;
+}
+
+#row-check-col {
+    height: 200px;
+}
+
+.check-col .row .col-6{
+    height: 80px;
+}
+
+.localization-section {
+    background-image: url("/img/background3.png");
+    height: 650px;
+    border-radius: 100px;
+}
+
+
+.localization-section {
+    border: 2px solid yellow;
+}
+
+.localization-section img{ 
+    height: 100px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    border: 2px solid red;
+}
+
+.localization-section h2{
+    height: 150px;
+    margin-bottom: 30px;
+    border: 2px solid red;
+}
+
+.localization-section button{
+    margin-top: 20px;
+}
+
+.testimonials-section{
+    height: 1000px;
+    background-image: url("/img/background3.png");
+    margin-top: 50px;
+    border-radius: 100px;
+    border: 2px solid red;
+}
+
+.testimonials-content {
+    height: 90%;
+    width: 90%;
+    border: 2px solid green;
+}
+
+.testimonials-content .row{
+    width: 100%;
+    border: 2px solid red;
+}
+
+.testimonials-content .row .col-4{
+    width: 100%;
+    border: 2px solid red;
+}
+
+.testimonials-content-icons {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+
+.testimonials-content-icons .block{
+    height: 200px;
+    width: 200px;
+    display: block;
+    border: 2px solid rgb(151, 17, 17);
+}
+
+.testimonials-content-icons .block i{
+    height: 20px;
+    width: 100%;
+    border: 2px solid green;
+}
+
+.specialization-section {
+    margin-top: 50px;
+}
+
+.specialization-content{
+    background-image: url("/img/background3.png");
+    border-radius: 100px;
+}
+
+
+.specialization-block {
+    height: 300px;
+    width: 26%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+}
+
+.specialization-block h2,p{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.specialization-block img {
+    width: 250px;
+
+}
+
+.specialization-content .col-8 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-section {
+    background-image: url("/img/background3.png");
+    height: 3000px;
+    border-radius: 100px;
+    margin-top: 50px;
+}
+
+.service-block {
+    height: 200px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+.service-block h2{
+
+}
+
+.service-block img {
+    width: 200px;
+}
+
+
+
+/* height: 300px;
+width: 26%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+margin-bottom: 20px;
+border: 2px solid gray; */
