@@ -59,6 +59,7 @@ nav ul {
 
 .icon {
     width: 50%;
+    height: 40px;
 }
 
 .icon img{
@@ -66,9 +67,10 @@ nav ul {
     width: 30px;
 }
 
+
 .icon p {
     height: 30px;
-    border: 2px solid red;
+    width: 50%;
     font-weight: bold;
     font-size: 12px;
 }
@@ -90,17 +92,19 @@ nav ul {
 .rounded-custom {
     border-radius: 25px;
     padding: 10px 20px;
-    border: 2px solid #007bff;
+
 }
 
 .rounded-custom:hover {
     background-color: aqua;
 }
 
-
-.img-fluid {
-    border: 2px solid red;
+.img-fluid img{
+    height: 580px;
+    width: 430px;
+    margin-top: 60px;
 }
+
 
 .espaco{
     height: 200px;
@@ -108,14 +112,12 @@ nav ul {
 
 #benefits-section{
     height: 1000px;
-    border: 2px solid greenyellow;
 }
 
 
 #row-benefits-section{
     height: 500px;
     margin-top: 100px;
-    border: 2px solid rgb(164, 54, 80);
 }
 
 #aspas {
@@ -127,36 +129,50 @@ nav ul {
     height: 300px;
 }
 
-#row-check-col {
-    height: 200px;
+.row-check-col {
+    height: 220px;
 }
 
-.check-col .row .col-6{
+.check-col .row-check-col .row .col-6{
     height: 80px;
+}
+
+.check-col .row-check-col .row .col-6 p{
+    margin: 10px;
 }
 
 .localization-section {
     background-image: url("/img/background3.png");
+    width: 100%;
     height: 650px;
     border-radius: 100px;
+
 }
 
 
-.localization-section {
-    border: 2px solid yellow;
-}
-
-.localization-section img{ 
+/* .localization-section img{ 
+    width: 120px;
     height: 100px;
     margin-bottom: 30px;
+    margin-right: 100px;
     margin-left: 60px;
     border: 2px solid red;
+} */
+
+
+.localization-section-img{
+    width: 65%;
 }
+
+.localization-section-img img{ 
+    width: 120px;
+    height: 100px;
+}
+
 
 .localization-section h2{
     height: 150px;
     margin-bottom: 30px;
-    border: 2px solid red;
 }
 
 .localization-section button{
@@ -164,27 +180,23 @@ nav ul {
 }
 
 .testimonials-section{
-    height: 1000px;
     background-image: url("/img/background3.png");
+    height: 1000px;
     margin-top: 50px;
     border-radius: 100px;
-    border: 2px solid red;
 }
 
 .testimonials-content {
     height: 90%;
     width: 90%;
-    border: 2px solid green;
 }
 
 .testimonials-content .row{
     width: 100%;
-    border: 2px solid red;
 }
 
 .testimonials-content .row .col-4{
     width: 100%;
-    border: 2px solid red;
 }
 
 .testimonials-content-icons {
@@ -193,20 +205,27 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid red;
 }
 
 .testimonials-content-icons .block{
-    height: 200px;
-    width: 200px;
-    display: block;
-    border: 2px solid rgb(151, 17, 17);
+    background-color: white;
+    height: 240px;
+    width: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }
 
-.testimonials-content-icons .block i{
-    height: 20px;
+.testimonials-content-icons .block img{
+    height: 75px;
+    width: 75px;
+}
+
+.testimonials-content-icons .block h2{
     width: 100%;
-    border: 2px solid green;
+    margin-top: 30px;
 }
 
 .specialization-section {
@@ -215,19 +234,21 @@ nav ul {
 
 .specialization-content{
     background-image: url("/img/background3.png");
+    height: 1100px;
     border-radius: 100px;
 }
 
 
 .specialization-block {
-    height: 300px;
-    width: 26%;
+    height: 400px;
+    width: 32%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: white;
 }
 
 .specialization-block h2,p{
@@ -237,10 +258,22 @@ nav ul {
     justify-content: center;
 }
 
-.specialization-block img {
-    width: 250px;
-
+.specialization-block  img {
+    height: 65%;
+    width: 100%;
 }
+
+.specialization-block .specialization-block-content {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
 
 .specialization-content .col-8 {
     display: flex;
@@ -256,24 +289,143 @@ nav ul {
     margin-top: 50px;
 }
 
-.service-block {
-    height: 200px;
-    width: 50%;
+.service-content {
+    width: 100%;
+    height: 100%;
+}
+
+.service-content-superior{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    border: 2px solid red;
-}
-
-.service-block h2{
 
 }
-
-.service-block img {
-    width: 200px;
+ 
+.service-block {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+   
 }
 
+.service-block img{
+    width: 410px;
+    border-radius: 10px;
+}
+
+.service-block-botao-check {
+    height: 50px;
+    border-radius: 100%;
+}
+
+.service-block .row .col-10 h2 {
+    width: 100%;
+}
+
+.service-block .row .col-10 img {
+    width: 15%;
+}
+
+.service-block .row .col-10 p {
+    width: 85%;
+}
+
+.service-block .row .col-10 .service-block-number {
+    width: 100%;
+
+}
+
+.service-block .row .col-10 .service-block-number p{
+    height: 35px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.price-section {
+    background-image: url("/img/background3.png");
+    height: 730px;
+    border-radius: 100px;
+}
+
+.price-section-content {
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+}
+
+
+.price-section-superior{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-section-block {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid;
+}
+
+.price-section-block .block-1{
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+.price-section-block .block-2{
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.price-section-block .block-3{
+    background-color: rgb(37, 98, 166);
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .service-block .row .col-10 img{
+   
+} */
 
 
 /* height: 300px;
